@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RecordButtonState">
+        <attr name="state_record" format="boolean"/>
+        <attr name="state_check" format="boolean"/>
+    </declare-styleable>
+
+    <string name="record_path">M 6,6 L 6,6 6,6</string>
+    <string name="check_path">M 1,5 L 4.5,9 11,3</string>
+</resources>

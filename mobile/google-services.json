@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "267172547365",
+    "firebase_url": "https://helpful-argon-201203.firebaseio.com",
+    "project_id": "helpful-argon-201203",
+    "storage_bucket": "helpful-argon-201203.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:267172547365:android:fcf7d321c7bae085",
+        "android_client_info": {
+          "package_name": "me.nathanp.bubbledrop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "267172547365-m5mri8gs6qjmcil30ju00li5cn4n3sb9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "me.nathanp.bubbledrop",
+            "certificate_hash": "35793592b32b12ab7e1471ff52223f70f91ada5a"
+          }
+        },
+        {
+          "client_id": "267172547365-s8nhoqmbh72rsm2a2bko99534u7l9q94.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkR6v9MGQ0wnJ39dEyXtgAm7owG1eo9og"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "267172547365-s8nhoqmbh72rsm2a2bko99534u7l9q94.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/record"
+        android:drawable="@drawable/vd_recordcheck_record"
+        app:state_record="true"/>
+
+    <item
+        android:id="@+id/check"
+        android:drawable="@drawable/vd_recordcheck_check"
+        app:state_check="true"/>
+
+    <transition
+        android:drawable="@drawable/avd_recordcheck_check_to_record"
+        android:fromId="@id/check"
+        android:toId="@id/record"/>
+
+    <transition
+        android:drawable="@drawable/avd_recordcheck_record_to_check"
+        android:fromId="@id/record"
+        android:toId="@id/check"/>
+
+</animated-selector>

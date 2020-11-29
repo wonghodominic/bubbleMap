@@ -1,0 +1,59 @@
+<animated-vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <aapt:attr name="android:drawable">
+        <vector
+            android:name="vector"
+            android:width="12dp"
+            android:height="12dp"
+            android:viewportWidth="12"
+            android:viewportHeight="12">
+            <group android:name="group">
+                <path
+                    android:name="check"
+                    android:pathData="M 1 6 L 6 6 L 11 6"
+                    android:strokeColor="#000000"
+                    android:strokeWidth="2"
+                    android:strokeLineCap="round"
+                    android:strokeLineJoin="round"/>
+            </group>
+        </vector>
+    </aapt:attr>
+    <target android:name="check">
+        <aapt:attr name="android:animation">
+            <set>
+                <objectAnimator
+                    android:propertyName="pathData"
+                    android:startOffset="100"
+                    android:duration="100"
+                    android:valueFrom="M 1 6 L 6 6 L 11 6"
+                    android:valueTo="M 1 6 L 6 11 L 11 6"
+                    android:valueType="pathType"
+                    android:interpolator="@android:anim/overshoot_interpolator"/>
+                <objectAnimator
+                    android:propertyName="pathData"
+                    android:duration="100"
+                    android:valueFrom="M 1 6 L 6 1 L 11 6"
+                    android:valueTo="M 1 6 L 6 6 L 11 6"
+                    android:valueType="pathType"
+                    android:interpolator="@android:anim/overshoot_interpolator"/>
+                <objectAnimator
+                    android:propertyName="pathData"
+                    android:startOffset="200"
+                    android:duration="100"
+                    android:valueFrom="M 1 6 L 6 11 L 11 6"
+                    android:valueTo="M 1 6 L 6 6 L 11 6"
+                    android:valueType="pathType"
+                    android:interpolator="@android:anim/overshoot_interpolator"/>
+                <objectAnimator
+                    android:propertyName="pathData"
+                    android:startOffset="300"
+                    android:duration="100"
+                    android:valueFrom="M 1 6 L 6 6 L 11 6"
+                    android:valueTo="M 1 6 L 6 1 L 11 6"
+                    android:valueType="pathType"
+                    android:interpolator="@android:anim/overshoot_interpolator"/>
+            </set>
+        </aapt:attr>
+    </target>
+</animated-vector>

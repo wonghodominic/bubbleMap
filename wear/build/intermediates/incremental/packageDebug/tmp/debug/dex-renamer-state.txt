@@ -1,0 +1,4 @@
+#Thu Apr 19 11:31:20 PDT 2018
+base.0=E\:\\Dropbox\\Programmin\\Android\\BubbleDrop\\wear\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

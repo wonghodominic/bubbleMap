@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Bubble Drop</string>
+    <string name="title_activity_main">Bubble Drop</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Username</string>
+    <string name="nav_header_subtitle">user@useremail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_logout">Log Out</string>
+    <string name="blank_chat">Nothing to see here</string>
+    <string name="distance_m">%1$.2fm away</string>
+    <string name="distance_km">%1$.2fkm away</string>
+    <string name="time_ago">posted %1$s ago</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Login Activity Strings -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="contacts_permission_rationale">Contacts permissions are needed for providing email completions.</string>
+
+    <!-- Main Activity Strings -->
+    <string name="location_permission_rationale">Location services are required for Bubble Drop to work properly.</string>
+    <string name="writing_external_permission_rationale">Writing to storage is required for Bubble Drop to work properly.</string>
+    <string name="allow_permission">Allow</string>
+    <string name="bubble_dropped">You dropped a bubble!</string>
+
+    <!-- My Bubbles Activity -->
+    <string name="my_bubbles_activity">My Bubbles</string>
+
+    <!-- Bubble Popup Strings -->
+    <string name="bubble_loading">Loading&#8230;</string>
+    <string name="bubble_loaded">Bubble</string>
+    <string name="bad_bubble">Bubble</string>
+
+    <!-- Nav Menu Strings -->
+    <string name="nav_item_bubbles">My Bubbles</string>
+
+    <!-- Bubble Layout Strings -->
+    <string name="finish">Finish</string>
+    <string name="cancel">Cancel</string>
+    <string name="edit_text_hint">Your comment here&#8230;</string>
+    <string name="recording">Recording&#8230;</string>
+
+    <!-- Firebase paths -->
+    <string name="bubbles">bubbles</string>
+    <string name="geofire_bubbles">geofire/bubbles</string>
+    <string name="users">users</string>
+    <string name="title_activity_record">RecordActivity</string>
+
+    <!-- Recording Activity -->
+    <string name="upload_file_success">File successfully uploaded</string>
+    <string name="upload_file_failure">Failed uploading file!</string>
+    <string name="recorded_audio_filename">recording</string>
+    <string name="saved_filename">download</string>
+    <string name="audio_file_format">.wav</string>
+    <string name="recording_permission_rationale">Audio recording permissions are required for this feature.</string>
+    <string name="title_activity_create_text_bubble">CreateTextBubbleActivity</string>
+    <string name="title_activity_camera">CameraActivity</string>
+
+</resources>
